@@ -2,13 +2,13 @@ import Main from "./pages/Main";
 import NewProduct from "./pages/NewProduct";
 import ProductList from "./pages/ProductList";
 import About from "./pages/About";
-import Navbar from "./components/Navbar";
+import MyNavbar from "./components/MyNavbar";
 import { Route, Routes } from "react-router-dom";
 
 function App() {
   return (
     <div className="bg-light app">
-      <Navbar />
+      <MyNavbar />
       <Routes>
         <Route exact path="/" element={<Main />} />
         <Route exact path="/products" element={<NewProduct />} />
