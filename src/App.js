@@ -10,10 +10,10 @@ function App() {
     <div className="bg-light app">
       <Navbar />
       <Routes>
-        <Routes exact path="/" element={<Main />} />
-        <Routes exact path="/products" element={<NewProduct />} />
-        <Routes exact path="/new-product" element={<ProductList />} />
-        <Routes exact path="/about" element={<About />} />
+        <Route exact path="/" element={<Main />} />
+        <Route exact path="/products" element={<NewProduct />} />
+        <Route exact path="/new-product" element={<ProductList />} />
+        <Route exact path="/about" element={<About />} />
       </Routes>
     </div>
   );
