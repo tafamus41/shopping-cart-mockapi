@@ -11,11 +11,10 @@ function App() {
       <Navbar />
       <Routes>
         <Routes exact path="/" element={<Main />} />
+        <Routes exact path="/products" element={<NewProduct />} />
+        <Routes exact path="/new-product" element={<ProductList />} />
+        <Routes exact path="/about" element={<About />} />
       </Routes>
-
-      <About />
-      <NewProduct />
-      <ProductList />
     </div>
   );
 }
